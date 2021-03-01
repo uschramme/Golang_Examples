@@ -12,12 +12,12 @@ import (
 // type 'compare'
 type compare func(arg1 float64, arg2 float64) bool
 
-// function to compare for ascending (tpye 'compare')
+// function to compare for ascending (type 'compare')
 func compasc(arg1 float64, arg2 float64) bool {
 	return arg1 > arg2
 }
 
-// function to compare for ascending (tpye 'compare')
+// function to compare for descending (type 'compare')
 func compdesc(arg1 float64, arg2 float64) bool {
 	return arg1 < arg2
 }
