@@ -23,14 +23,14 @@ func compdesc(arg1 float64, arg2 float64) bool {
 }
 
 // simple implementation of the bubblesort-algorithm
-func bubblesort(numbers *[]float64, sortfunc compare) {
+func bubblesort(numbers *[]float64, compfunc compare) {
 	max := len(*numbers) - 1
 	if max > 0 {
 		flag := true // swapped?
 		for flag {
 			flag = false
 			for i := 0; i < max; i++ {
-				if sortfunc((*numbers)[i], (*numbers)[i+1]) {
+				if compfunc((*numbers)[i], (*numbers)[i+1]) {
 					flag = true
 					(*numbers)[i], (*numbers)[i+1] = (*numbers)[i+1], (*numbers)[i] // swap values
 				}
