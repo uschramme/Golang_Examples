@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// calculates
+// calculates the least common multiple
 func euclid(a, b int) int {
 	if b == 0 {
 		return a
@@ -14,6 +14,7 @@ func euclid(a, b int) int {
 
 func main() {
 	const text = "Least common multiple of"
+	// Examples
 	x, y := 65, 26
 	fmt.Printf("%s %d and %d = %d\n", text, x, y, euclid(x, y))
 	x, y = 224, 12
