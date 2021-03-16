@@ -7,3 +7,7 @@
 * GenericStack: a stack (LIFO collection) that can hold values of any type
 
   *Level: Beginner*
+
+* Euclid: a recursive algorithm to find the least common multiple
+
+  *Level: Beginner*
