@@ -11,6 +11,11 @@
 * **Euclid**: a recursive algorithm to find the least common multiple
 
   *Level: Beginner*
+
 * **Palindrome**: check if a string is a palindrome
 
   *Level: Beginner*
+
+* **LinkedList**: a singly linked list
+
+   *Level: Intermediate*
