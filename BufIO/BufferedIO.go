@@ -35,7 +35,7 @@ func ReadFile(filename string) {
 	defer f.Close()
 	scanner := bufio.NewScanner(f)
 	for scanner.Scan() {
-		fmt.Println(scanner.Text())
+		fmt.Println(scanner.Text()) // read as long there are strings
 	}
 	if err := scanner.Err(); err != nil {
 		panic(err.Error()) // error handling
