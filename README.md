@@ -19,3 +19,7 @@
 * **LinkedList**: a singly linked list
 
    *Level: Intermediate*
+
+* **BufIO**: a simple introduction to buffered i/o
+
+   *Level: Beginner*
