@@ -27,3 +27,7 @@
 * **Variadic**: functions with a variable number of arguments
 
    *Level: Beginner*
+   
+* **PointerBasics**: an introduction to pointers in Go
+
+   *Level: Intermediate*
