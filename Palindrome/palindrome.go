@@ -9,7 +9,7 @@ import (
 // check if a string is a palindrome
 func isPalindrome(text string) bool {
 	var sb strings.Builder // a Builder is used to minimize memory copying
-	// we only need letters converted to lowercas
+	// we only need letters converted to lowercase
 	// no whitespaces, numbers or punctuations
 	sb.Grow(len(text))
 	for _, ch := range text {
